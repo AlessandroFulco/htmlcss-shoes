@@ -6,10 +6,18 @@
 }
 
 .products-section {
-    background-color: red;
     width: 100%;
     height: 100vh;
     position: relative;
+}
+.products-section.red {
+    background-color: red;
+}
+.products-section.green {
+    background-color: green;
+}
+.products-section.yellow {
+    background-color: #ffff00;
 }
 
 .container-product {
@@ -18,11 +26,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .container-product h1 {
     color: #ffff00;
     width: 70%;
     margin: 0 auto;
     text-align: center;
     font-size: 35px;
+}
+.products-section.yellow .container-product h1 {
+    color: green;
 }

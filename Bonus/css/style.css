@@ -33,6 +33,9 @@ nav ul li {
     vertical-align: middle;
     border-radius: 50%;
 }
+nav ul li:hover {
+    box-shadow: 0px 4px 8px #333;
+}
 nav a {
     text-decoration: none;
     font-size: 15px;
